@@ -13,8 +13,4 @@ public class CustomerCommandSideApplication {
         SpringApplication.run(CustomerCommandSideApplication.class, args);
     }
 
-    @Bean
-    public CommandBus commandBus(){
-        return SimpleCommandBus.builder().build();
-    }
 }
